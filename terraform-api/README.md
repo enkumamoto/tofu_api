@@ -1,6 +1,6 @@
 # 🐍 Terraform API
 
-## 🚀 `main.py` - O Capitão da Nave
+## 🚀 `main.py`
 
 **Função:** Coordena toda a operação da API.
 
@@ -30,7 +30,7 @@ GET  /get_base_path               # "Onde estamos trabalhando?"
 
 ---
 
-## 🔍 `modules_handler.py` - O Explorador
+## 🔍 `modules_handler.py`
 
 **Função:** Encontrar módulos Terraform no projeto.
 
@@ -64,7 +64,7 @@ Resultado: ["1.0-RG", "2.0-BLOB_STORAGE"]
 
 ---
 
-## 📖 `makefile_parser.py` - O Tradutor
+## 📖 `makefile_parser.py`
 
 **Função:** Ler Makefiles e descobrir quais comandos você pode usar.
 
@@ -188,5 +188,3 @@ Se você é novo nessas tecnologias, recomendo começar por:
 3. **[Python pathlib tutorial](https://realpython.com/python-pathlib/)** - Para manipular arquivos como um pro
 
 ---
-
-*Agora você tem todas as referências para se aprofundar em cada tecnologia! Happy coding! 🎉*
