@@ -146,3 +146,47 @@ Imagine uma conversa típica entre os três:
 **Regra de ouro:** Cada arquivo cuida das suas funções. Mantenha assim e todos ficarão organizados e funcionais! 😊
 
 ---
+
+## 📚 Documentações das Tecnologias Utilizadas
+
+### 🐍 Python & Bibliotecas Core
+- **[Python](https://docs.python.org/3/)** - A linguagem principal da nossa API
+- **[pathlib](https://docs.python.org/3/library/pathlib.html)** - Para manipulação de caminhos de arquivos e diretórios
+- **[subprocess](https://docs.python.org/3/library/subprocess.html)** - Para executar comandos do sistema (como `make`)
+- **[re (regex)](https://docs.python.org/3/library/re.html)** - Para encontrar padrões nos Makefiles
+
+### 🚀 Framework Web
+- **[FastAPI](https://fastapi.tiangolo.com/)** - O framework web que faz toda a mágica da API
+  - **[Documentação em Português](https://fastapi.tiangolo.com/pt/)** - Para quem prefere em português! 🇧🇷
+- **[Uvicorn](https://www.uvicorn.org/)** - O servidor ASGI que roda nossa aplicação
+- **[Pydantic](https://docs.pydantic.dev/)** - Validação de dados (vem junto com o FastAPI)
+
+### 🛠️ Ferramentas de Infraestrutura
+- **[Terraform](https://developer.hashicorp.com/terraform/docs)** - Para provisionar infraestrutura como código
+- **[OpenTofu](https://opentofu.org/docs/)** - Fork open-source do Terraform
+- **[Make](https://www.gnu.org/software/make/manual/)** - Para automatizar comandos repetitivos
+
+### ☁️ Azure
+- **[Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)** - Para autenticação e gerenciamento do Azure
+- **[Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)** - Provider específico para Azure
+
+### 🔧 Utilitários
+- **[python-multipart](https://github.com/andrew-d/python-multipart)** - Para lidar com uploads de arquivos (se necessário)
+- **[aiofiles](https://github.com/Tinche/aiofiles)** - Para operações assíncronas com arquivos
+
+### 📖 Recursos Adicionais
+- **[HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)** - Para entender os códigos de resposta
+- **[REST API Design](https://restfulapi.net/)** - Boas práticas para APIs REST
+- **[JSON](https://www.json.org/json-en.html)** - Formato de dados que usamos nas respostas
+
+## 🎓 Para Começar a Estudar
+
+Se você é novo nessas tecnologias, recomendo começar por:
+
+1. **[Tutorial FastAPI](https://fastapi.tiangolo.com/tutorial/)** - Super didático e bem explicado
+2. **[Terraform Getting Started](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)** - Conceitos básicos
+3. **[Python pathlib tutorial](https://realpython.com/python-pathlib/)** - Para manipular arquivos como um pro
+
+---
+
+*Agora você tem todas as referências para se aprofundar em cada tecnologia! Happy coding! 🎉*
