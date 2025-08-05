@@ -9,7 +9,7 @@ from makefile_parser import parse_makefile
 # Inicializa a aplicação FastAPI.
 app = FastAPI()
 
-# Define o diretório base do projeto, que é o diretório pai da pasta atual (terraform-api).
+# Define o diretório base do projeto, que é o diretório pai da pasta atual (tofu-api).
 # Exemplo: /home/user/projeto
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -39,7 +39,7 @@ def get_base_path():
 def listar_diretorios():
     """
     Lista todos os subdiretórios no diretório base que contenham Makefile,
-    exceto o próprio diretório da API (terraform-api).
+    exceto o próprio diretório da API (tofu-api).
     """
     modulos = list_modules(BASE_DIR)
     # Retorna a lista de módulos encontrados.

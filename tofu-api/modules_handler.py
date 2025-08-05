@@ -12,6 +12,6 @@ def list_modules(base_path: Path):
         if f.is_dir()
         # Verifica se existe um arquivo chamado "Makefile" dentro do diretório.
         and (f / "Makefile").exists()
-        # Exclui o diretório chamado "terraform-api" da lista de resultados.
-        and f.name != "terraform-api"
+        # Exclui o diretório chamado "tofu-api" da lista de resultados.
+        and f.name != "tofu-api"
     ]
