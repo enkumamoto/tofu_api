@@ -156,6 +156,13 @@ Imagine uma conversa típica entre os três:
 
 ---
 
+## 🔍 Observações:
+
+- **Posso utilizar a api apontando para outras clouds?** → Sim, só tenha certeza que os Makefile e o acesso a cloud desejada estejam configurados.
+- **Posso editar a API?** → Sim, o código é público, caso queira melhorá-la, crie sua branch e depois manda um PR.
+
+---
+
 ## 📚 Documentações das Tecnologias Utilizadas
 
 ### 🐍 Python & Bibliotecas Core
@@ -174,14 +181,13 @@ Imagine uma conversa típica entre os três:
 
 ### 🛠️ Ferramentas de Infraestrutura
 
-- **[tofu](https://developer.hashicorp.com/tofu/docs)** - Para provisionar infraestrutura como código
 - **[OpenTofu](https://opentofu.org/docs/)** - Fork open-source do tofu
 - **[Make](https://www.gnu.org/software/make/manual/)** - Para automatizar comandos repetitivos
 
 ### ☁️ Azure
 
 - **[Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)** - Para autenticação e gerenciamento do Azure
-- **[tofu Azure Provider](https://registry.tofu.io/providers/hashicorp/azurerm/latest/docs)** - Provider específico para Azure
+- **[Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)** - Provider específico para Azure
 
 ### 🔧 Utilitários
 
@@ -199,7 +205,7 @@ Imagine uma conversa típica entre os três:
 Se você é novo nessas tecnologias, recomendo começar por:
 
 1. **[Tutorial FastAPI](https://fastapi.tiangolo.com/tutorial/)** - Super didático e bem explicado
-2. **[tofu Getting Started](https://developer.hashicorp.com/tofu/tutorials/aws-get-started)** - Conceitos básicos
+2. **[tofu Getting Started](https://opentofu.org/docs/intro/)** - Conceitos básicos
 3. **[Python pathlib tutorial](https://realpython.com/python-pathlib/)** - Para manipular arquivos como um pro
 
 ---
