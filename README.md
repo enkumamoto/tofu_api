@@ -184,10 +184,12 @@ Imagine uma conversa típica entre os três:
 - **[OpenTofu](https://opentofu.org/docs/)** - Fork open-source do tofu
 - **[Make](https://www.gnu.org/software/make/manual/)** - Para automatizar comandos repetitivos
 
-### ☁️ Azure
+### ☁️ Cloud
 
 - **[Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)** - Para autenticação e gerenciamento do Azure
 - **[Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)** - Provider específico para Azure
+- **[AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)** - Para autenticação e gerenciamento da AWS
+- **[Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)** - Provider específico para AWS
 
 ### 🔧 Utilitários
 
